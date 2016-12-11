@@ -1,6 +1,6 @@
 ##########################################################################################
 #
-# Magisk
+# Magisk - Set DPI to 420
 # by topjohnwu
 # 
 # This is a template zip for developers
@@ -33,14 +33,14 @@
 
 # This will be the folder name under /magisk or /cache/magisk
 # This should also be the same as the id in your module.prop to prevent confusion
-MODID=template
+MODID=setdpi420
 
 # Set to true if you need automount
 # Most mods would like it to be enabled
 AUTOMOUNT=true
 
 # Set to true if you need post-fs-data script
-POSTFSDATA=false
+POSTFSDATA=true
 
 # Set to true if you need late_start service script
 LATESTARTSERVICE=false
@@ -53,7 +53,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "     Set DPI to 420    "
   ui_print "*******************************"
 }
 
